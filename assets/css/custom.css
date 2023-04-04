@@ -1,0 +1,36 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  display: inline-block;
+  height: 2px;
+  width: 40%;
+  background-color: #000;
+}
+
+.about-title {
+  margin: 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.vertical-gapv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stretch-items {
+  max-height: 500px;
+  height: 100%;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
