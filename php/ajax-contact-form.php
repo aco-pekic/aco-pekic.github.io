@@ -15,14 +15,14 @@ class Ajax_Contact_Form {
      *
      * @var string
      */
-    protected $address_destination = 'email@example.com';
+    protected $address_destination = 'aleksandar.pekic@goriscon.de';
 
     /**
      * Message subject
      *
      * @var string
      */
-    protected $message_subject = 'Message from AJAX Contact Form';
+    protected $message_subject = 'Nachricht aus PB Bauservice Kontaktformular';
 
     /**
      * Strings to translate or change it.
@@ -32,16 +32,16 @@ class Ajax_Contact_Form {
     protected $strings = array(
         'body'              => '
             <h1>{{subject}}</h1>
-            <p><strong>From:</strong> {{name}}</p>
+            <p><strong>Von:</strong> {{name}}</p>
             <p><strong>E-Mail:</strong> {{email}}</p>
-            <p><strong>Message:</strong> <br> {{message}}</p>',
-        'success'           => 'Thank You! I will be in touch.',
+            <p><strong>Nachricht:</strong> <br> {{message}}</p>',
+        'success'           => 'Vielen Dank! Wir melden uns so schnell wie möglich.',
         'error'             => 'Sorry there was an error sending your message. Please check server PHP mail configuration.',
         'demo'              => 'This is demo message from PHP',
         'header_injection'  => 'Header injection detected.',
-        'enter_name'        => 'Please enter your name.',
-        'enter_email'       => 'Please enter a valid email address.',
-        'enter_message'     => 'Please enter your message.',
+        'enter_name'        => 'Bitte geben Sie Ihren Namen ein.',
+        'enter_email'       => 'Bitte geben Sie eine gültige Email adresse an.',
+        'enter_message'     => 'Bitte hinterlassen sie eine Nachricht.',
         'ajax_only'         => 'Allowed only XMLHttpRequest.',
     );
 
